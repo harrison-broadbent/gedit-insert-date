@@ -2,6 +2,17 @@
 
 Insert the date using a keyboard shortcut in Gedit.
 
+## Contents
+
+- [Installation](#installation)
+  - [Simple](#simple)
+  - [Manual](#manual)
+- [Customization](#customization)
+  - [Change date format](#change-date-format)
+  - [Change padding text](#change-padding-text)
+  - [Change shortcut key](#change-shortcut-key)
+- [Sources](#sources)
+
 ## **Installation**
 
 ### Simple (1 Minute)
@@ -68,10 +79,6 @@ Navigate to the Gedit entry for the tool.
   | ^        | use upper case if possible    |
   | #        | use opposite case if possible |
 
-### Change shortcut key
-
-- Select "Shortcut key" from the Gedit tool pane, and then enter a new combination.
-
 ### Change padding text
 
 - By default the date is wrapped as "--- $(date) ---\n"
@@ -91,6 +98,10 @@ Navigate to the Gedit entry for the tool.
 - would insert something like -
   - --> DATE: Sun 07 Mar 2021 17:08:00 <--
   - Followed by a single trailing newline
+
+### Change shortcut key
+
+- Select "Shortcut key" from the Gedit tool pane, and then enter a new combination.
 
 ### Sources
 
