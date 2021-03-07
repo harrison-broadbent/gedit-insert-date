@@ -1,14 +1,14 @@
 # Gedit Insert Date
 
-Insert the date using a keyboard shortcut in Gedit.
+Insert the date and time using a keyboard shortcut in Gedit.
 
 ![Demo gif](demo.gif)
 
 ## Contents
 
 - [Installation](#installation)
-  - [Simple](#simple)
-  - [Manual](#manual)
+  - [Simple](#installation)
+  - [Manual](#installation)
 - [Customization](#customization)
   - [Change date format](#change-date-format)
   - [Change padding text](#change-padding-text)
@@ -27,9 +27,9 @@ Insert the date using a keyboard shortcut in Gedit.
 
 - Open Gedit and press Menu (☰)>Preferences>Plugins and tick "External Tools".
 
-Press F2 to insert a time/datestamp into your file in Gedit.
+**Press F2 to insert a time/datestamp into your file in Gedit.**
 
-See "Customization" below for details on adjusting the behavior of the extension.
+_See "Customization" below for details on adjusting the behavior of the extension._
 
 ### Manual (3 Minutes)
 
@@ -45,14 +45,16 @@ echo "--- $(date +%c) ---\n"
 
 ```
 
-Press F2 to insert a time/datestamp into your file in Gedit.
+![Final result image](gedit-insert-date.png)
+
+**Press F2 to insert a time/datestamp into your file in Gedit.**
 
 ## **Customization**
 
 Navigate to the Gedit entry for the tool.
 
 - Menu (☰)>Manage External Tools...> select the name of the tool from the sidebar.
-  - ("Add Date" if you followed the simple instructions)
+  - ("Add Date" if you followed the simple instructions).
 
 ### Change date format
 
@@ -77,7 +79,7 @@ Navigate to the Gedit entry for the tool.
   | -------- | ----------------------------- |
   | -        | (hyphen) do not pad the field |
   | \_       | (underscore) pad with spaces  |
-  | 0 (zero) | (zero) pad with zeros         |
+  | 0        | (zero) pad with zeros         |
   | ^        | use upper case if possible    |
   | #        | use opposite case if possible |
 
