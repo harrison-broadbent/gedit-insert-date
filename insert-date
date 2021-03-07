@@ -1,0 +1,10 @@
+#!/bin/sh
+# [Gedit Tool]
+# Name=Add Date
+# Shortcut=F2
+# Input=nothing
+# Output=insert
+# Applicability=all
+# Save-files=nothing
+
+echo "--- $(date +%c) ---\n"
