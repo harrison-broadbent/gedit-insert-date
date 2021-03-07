@@ -1,0 +1,1 @@
+# gedit-insert-date
