@@ -2,6 +2,8 @@
 
 Insert the date using a keyboard shortcut in Gedit.
 
+![Demo gif](demo.gif)
+
 ## Contents
 
 - [Installation](#installation)
